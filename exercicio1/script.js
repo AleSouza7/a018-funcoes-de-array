@@ -4,3 +4,9 @@ const objeto = {
     username: "astrodev_labenu",
     senha: "melhorDeTodos"
 }
+
+function objetoA(){
+    console.log(objeto)
+};
+
+console.log(objetoA(objeto.nome))
